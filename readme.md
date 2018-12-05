@@ -1,7 +1,9 @@
 # Security API
 
 1.Tạo DB bằng SQL: CREATE SCHEMA `local` DEFAULT CHARACTER SET utf8 ;
+
 2.Cd vào thư mục project và chạy lệnh: php artisan migrate
+
 3.Tạo dữ liệu test bằng lệnh: php artisan db:seed
 4.Tạo local host bằng lệnh: php -S localhost:8000 -t public
 5.Lấy token private user bằng API: 
